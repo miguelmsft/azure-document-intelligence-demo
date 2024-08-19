@@ -4,6 +4,9 @@ This repository shows a demo of how to convert image files into searchable pdf f
 ## Step 1. Convert from image file to pdf (non-searchable) file. 
 If you have image files, use the code in `convert_pdf.py` to convert them to (non-searchable) pdf files. Currently, Azure Document Intelligence can produce searchable pdf files from (non-searchable) pdf files as input. Support for creating searchable pdf files from other input types such as images will be available later in 2024. In this example, `receipt-image.jpg` is converted to `receipt-nonsearchable.pdf`.
 
+The initial file is `receipt-image.jpg`
+![Input image](receipt-image.jpg)
+
 ## Step 2. Create Azure Document Intelligence resource.
 If you haven't done so already, create an Azure Document Intelligence resource. Here is the [documentation page](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/create-document-intelligence-resource?view=doc-intel-4.0.0)
 
