@@ -1,0 +1,1 @@
+curl -v -X GET "{endpoint}/documentintelligence/documentModels/prebuilt-read/analyzeResults/{apim-request-id}/pdf?api-version=2024-07-31-preview" -H "Ocp-Apim-Subscription-Key: {key}" --output receipt-searchable.pdf

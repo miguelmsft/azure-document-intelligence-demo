@@ -1,0 +1,1 @@
+curl -v -i POST "{endpoint}/documentintelligence/documentModels/prebuilt-read:analyze?output=pdf&api-version=2024-07-31-preview" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: {key}" --data-ascii "{'urlSource': 'https://github.com/miguelmsft/azure-document-intelligence-demo/blob/main/receipt-nonsearchable.pdf?raw=true'}"
